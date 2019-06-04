@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+# Adding Puma due to an error
+gem 'puma'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
 gem 'sqlite3', '~> 1.3.6'
