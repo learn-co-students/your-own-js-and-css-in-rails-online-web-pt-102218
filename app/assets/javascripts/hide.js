@@ -6,10 +6,7 @@
 // }
 
 
-function hideWhenClicked(event) {
-  debugger
-  event.target.remove()
+  
+function hideWhenClicked() {
+$('#hide_this').hide()
 }
-
-let text = document.getElementById('hide_this')
-text.addEventListener("click", hideWhenClicked)
