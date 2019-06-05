@@ -6,8 +6,9 @@
 // }
 
 
-function hideWhenClicked() {
-  this.remove()
+function hideWhenClicked(event) {
+  debugger
+  event.target.remove()
 }
 
 let text = document.getElementById('hide_this')
