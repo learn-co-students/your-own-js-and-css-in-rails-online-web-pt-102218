@@ -38,6 +38,8 @@ group :development, :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'poltergeist'
+  gem 'puma'
+  gem 'mocha'
 end
 
 group :development do
